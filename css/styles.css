@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  
 }
 /* Sitting the Var colors for the webpage */
 :root {
@@ -35,7 +36,7 @@ h1 {
   color: var(--white);
   font-size: 2rem;
   font-family: sans-serif;
-  margin: 15px 10px;
+  margin: 15px 35px;
   padding: 8px;
 }
 /* Paaragraph sittings */
@@ -69,11 +70,12 @@ nav ul {
 /* Main title background image sittings */
 
 .main-title {
-  background-image: url("https://mediaandmore.co.uk/wp-content/uploads/2020/06/web-development-banner.jpg");
+  background-image: url("https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif");
+  /* background-image: url("https://mediaandmore.co.uk/wp-content/uploads/2020/06/web-development-banner.jpg"); */
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  height: 300px;
+  height: 400px;
   min-height: 30vh;
   color: var(--white);
   display: flex;
@@ -85,7 +87,7 @@ nav a {
   border-radius: 20px 5px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
+  background-size: 80% 0.2em;
   color: var(--white);
   font-size: 1.4rem;
   margin-right: 10px;
@@ -95,57 +97,64 @@ nav a {
 /* Hovering all anchor tags */
 a:hover {
   background-color: var(--red);
-  background-size: 100% 100%;
+  background-size: 800% 800%;
 }
 
 /* Portfolio layout sittings */
 .about-me {
-  float: left;
   border-right: solid var(--black);
   border-width: 4px;
   border-radius: 10px;
-  height: 120px;
+  height: 180px;
   margin-left: 70px;
-  margin: 20px 96px 20px;
+  margin: 20px 134px 20px;
   padding: 38px;
+  display: flex;
 }
 
 /* First container background image and sittings */
 .hor-container {
-  align-items: end;
-  background-image: url("./digital-marketing-meeting.jpg");
-  background-size: cover;
-  border: solid var(--blue);
-  border-width: 6px;
-  height: 400px;
-  margin-right: 152px;
-  display: flex;
-  width: 73% auto;
+ 
 }
 
 .hor-inc {
+  background-image: url("./digital-marketing-meeting.jpg");
+  background-size: cover;
+  height: 652px;
+  width: 86%;
+  border: solid var(--blue);
+  border-width: 6px;
   background-color: var(--blue);
   border-radius: 30px;
   color: var(--white);
   margin: 5px;
   padding: 20px;
   line-height: 4px;
-  width: 140px;
-  display: block;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column-reverse;
+
 }
 /* Side border sittings and layouts */
 .work {
-  float: left;
   border-right: 4px solid var(--black);
-  height: 714px;
-  margin: 0 81px 20px;
-  padding: 54px;
   border-width: 4px;
-  width: 150;
   color: var(--black);
   border-radius: 10px;
+  margin-left: 70px;
+  margin: 0px 100px 0px 120px;
+  padding: 10px 0px 10px 82px;
+  display: flex;
 }
-
+#work,#About,#contact {
+display: flex;
+flex-direction: row;
+justify-content: left;
+}
+#work h2,#About h2,#contact h2 {
+  display: flex;
+  width: 200px;
+}
 /* 1st-4rth containtetr images sittings */
 .led-main {
   display: flex;
@@ -166,7 +175,7 @@ a:hover {
   display: flex;
   align-items: baseline;
   flex-direction: column;
-  height: 150px;
+  height: 180px;
   justify-content: end;
   padding: 25px 0px 23px 22px;
   width: 42.5%;
@@ -196,26 +205,17 @@ a:hover {
 .cal-tor,
 .pas-puz,
 .bu-ddy {
-  background-color: var(--blue);
-  border-radius: 30px;
+  /* background-color: var(--blue);
+  border-radius: 30px; */
   color: var(--white);
   margin-left: 7px;
   line-height: 4px;
   padding: 10px;
-  width: 119px;
+  width: 280px;
 }
 
 
-.contact-me {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  display: inline;
-  
-}
 .flating {
-  float: left;
   border-right: solid var(--black);
   border-radius: 10px;
   border-width: 4px;
@@ -223,9 +223,10 @@ a:hover {
   font-family: sans-serif;
   height: 88px;
   margin-left: 5.9%;
-  text-align: center;
-  text-align: center;
   padding: 3px 49px 15px 0px;
+  margin: 20px 88px 0px;
+  text-align: center;
+
 }
 
 .contact-me a {
@@ -238,5 +239,6 @@ a:hover {
   padding: 15px;
   text-decoration: underline;
   max-width: auto;
+  padding: 7px;
   
 }

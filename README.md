@@ -34,6 +34,6 @@ Container
 * led wall to my github.
 * Calculator/Run Buddy/Pastle Pazzle to appropriate link.
 
-![127 0 0 1_5501_index html (1)](https://user-images.githubusercontent.com/111917255/210716386-dbcfac0b-d9f4-4def-9a81-7db3db38cab1.png)
+![omermasih github io_Portfoilo tech_](https://user-images.githubusercontent.com/111917255/212818273-1be65a57-33dc-4906-a9d5-bbebe740aa65.png)
 
 

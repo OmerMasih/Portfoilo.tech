@@ -52,6 +52,7 @@ p {
 }
 /* Positioning the header layouts */
 header {
+  display: flex;
   background-color: var(--black);
   align-items: center;
   display: flex;
@@ -70,12 +71,12 @@ nav ul {
 /* Main title background image sittings */
 
 .main-title {
-  background-image: url("https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif");
-  /* background-image: url("https://mediaandmore.co.uk/wp-content/uploads/2020/06/web-development-banner.jpg"); */
+  /* background-image: url("https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"); */
+  background-image: url("https://i.pinimg.com/originals/ba/9c/a1/ba9ca1e81caf80f5540516e4e20df473.gif");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  height: 400px;
+  height: 600px;
   min-height: 30vh;
   color: var(--white);
   display: flex;
@@ -112,7 +113,7 @@ a:hover {
   display: flex;
 }
 
-/* First container background image and sittings */
+
 .hor-container {
  
 }
